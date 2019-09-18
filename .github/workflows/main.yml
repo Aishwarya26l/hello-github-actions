@@ -9,3 +9,4 @@ jobs:
     - uses: ./action-a
       env:
         MY_NAME: "Aishwarya"
+        GITHUB_TOKEN: ${{ secrets.test_secret }}
